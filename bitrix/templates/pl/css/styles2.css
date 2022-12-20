@@ -1,0 +1,261 @@
+@import "//fonts.fontstorage.com/import/gunnyrewritten.css";
+h1,h2,h3,h4,h5,h6{font-family:Times New Roman,serif,sans-serif;}
+.hero-content h2{
+    font-size:60px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    padding-bottom: 15px;
+    font-family: 'Gunny Rewritten';
+}
+.hero-content h2 em{
+    line-height: 80px;
+    font-size: 90px;
+}
+blockquote.alignright, blockquote.alignleft, .alignleft.img, .alignright.img {
+    width: 33%;
+}
+blockquote p{
+    font-size: 130%;
+    line-height: 180%;
+    /* font-style: oblique; */
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.full-width-image {
+    margin: 1em 0 1.6em;
+    overflow: hidden;
+    clear: both;
+}
+.full-width-image img {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.main-navigation.breadcrump, .main-navigation.breadcrump a {
+    color: grey;
+    font-size: 14px;
+    padding: 0;
+}
+
+.main-navigation.breadcrump ul {
+    position: relative;
+    top: -25px;
+    display: block;
+}
+
+.main-navigation.breadcrump a{
+    cursor: pointer;
+}
+
+.main-navigation.breadcrump a:after {
+    font-family: FontAwesome;
+    content: "\f105";
+    padding: 0 5px;
+}
+
+.search .col-1-1 {
+    margin: 10px 0;
+}
+
+.site-footer {
+    padding: 20px;
+}
+
+.site-footer ul li {
+    margin-bottom: 8px;
+    text-align: left;
+    font-size: 70%;
+}
+
+.site-footer ul li a {
+    color: darkgray;
+}
+
+.site-footer input {
+    font-size: 70%;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 3px 5px;
+    text-align: center;
+}
+.page-entry-header .entry-title,.menu-item a {
+    font-weight: bolder;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.parallax-mirror {
+    background-color: #000000;
+}
+.parallax-mirror img {
+    opacity: 0.8;
+}
+#mt-projects .col-1-2.mt-column-clear:nth-child(2n+1){
+     padding:  25px 25px 25px 0;
+ }
+#mt-projects .col-1-2.mt-column-clear:nth-child(2n){
+    padding:  25px 0 25px 25px;
+}
+.search-page-pl .news-image {
+    width: 65%;
+}
+.search-page-pl .news-info {
+    width: 35%;
+}
+.search-page-pl .news-info p {
+    font-size: 80%;
+}
+.col-1-1 .search-page input[name="q"]{
+    position: relative;
+    width: 88%;
+    top: 3px;
+}
+
+.private p {
+    font-size: 65%;
+    line-height: 16px;
+    width: 85%;
+    margin: 0 30px;
+}
+
+.private input[type="checkbox"]{
+    position: relative;
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin: 6px 10px 5px 0;
+}
+
+#recom img{
+    margin: 0 0 0 -1px;
+}
+.img {
+    margin-bottom: 20px;
+}
+.aligncenter.img {
+    text-align: center;
+}
+.subtitle-img{
+    font-style: italic;
+    font-size: 80%;
+}
+.img-in-row .alignleft.img, .img-in-line .alignright.img {
+    width: 30%;
+}
+.img-in-line .alignleft {
+    margin-right: 0;
+}
+.img-in-line .alignright {
+    margin-left: 0;
+}
+.img-in-line, .img-in-row {
+    margin: 20px 0;
+}
+.site-title {
+    font-size: xx-large;
+}
+.site-title a, .site-title {
+    font-style: normal;
+}
+.sub-title {
+    position: relative;
+    font-size: 33%;
+    top: -70px;
+    letter-spacing: 0.2em;
+}
+.about-text {
+    position: relative;
+}
+.about-text div p {
+    margin-bottom: 0;
+}
+.first-letter {
+    font-size: 60px;
+    color: red;
+    float: left;
+    font-family: 'Gunny Rewritten';
+    position: relative;
+    margin: -18px 3px;
+    height: 70px;
+}
+
+.social {
+    float: right;
+    margin-bottom: 70px;
+}
+.social * {
+    margin-right: 10px;
+}
+
+div.list {
+    margin-bottom: 1.5em;
+}
+
+div.list p {
+    margin-bottom: 0.5em;
+}
+
+div.list p:before {
+    content:"\2022";
+    margin-right: 10px;
+}
+
+div.entry-content a {
+    color: #2a92d0;
+}
+
+div.entry-content p {
+    text-align: justify;
+}
+
+.social-fx {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0.7;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/*-bugfix old ver-*/
+.entry-content p img {
+    margin: 20px;
+}
+/*---------------*/
+
+@media handheld, only screen and (max-width: 767px) {
+    .hero-content h2{
+        font-size:26px;
+    }
+    blockquote.alignright, blockquote.alignleft, .alignleft.img, .alignright.img {
+        width: auto;
+    }
+    #mt-projects .col-1-2.mt-column-clear:nth-child(2n+1), #mt-projects .col-1-2.mt-column-clear:nth-child(2n) {
+        padding: 0;
+    }
+    .project-box .project-content span h3{
+        position: relative;
+        z-index: 999999;
+        opacity: 1;
+        /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+        font-size: 20px;
+        padding: 0 18px;
+        /*text-shadow: 1px 1px 1px #000;*/
+        text-shadow: 0.1em 0.1em 0.2em black;
+        width: 80%;
+        left: 10%;
+    }
+    .project-content span {
+        vertical-align: top;
+    }
+    .col-1-4.bm {
+        float: left;
+        width: 50%;
+    }
+    .col-1-1 .search-page input[name="q"], .col-1-1 .search-page input{
+        width: 100%;
+    }
+}

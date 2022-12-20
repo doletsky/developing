@@ -1,0 +1,3 @@
+<?
+$sSectionName="stat_client";
+?>
